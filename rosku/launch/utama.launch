@@ -1,0 +1,13 @@
+<launch>
+    <!-- Node untuk Publisher -->
+    <node pkg="rosku" type="pub" name="sensor_publisher" output="screen">
+        <param name="frequency" value="10"/> <!-- Contoh parameter opsional -->
+    </node>
+
+    <!-- Node untuk Subscriber -->
+    <node pkg="rosku" type="sub" name="robot_controller" output="screen">
+        <param name="debounce_time" value="0.3"/> <!-- Parameter untuk debounce tombol -->
+    </node>
+        <node pkg="rosbridge_server" type="rosbridge_websocket" name="rosbridge_websocket" output="screen">
+    </node>
+</launch>
