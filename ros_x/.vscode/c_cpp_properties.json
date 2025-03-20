@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/melodic/include/**",
+        "/home/bf1/new_ws/src/bno_pub/include/**",
+        "/home/bf1/new_ws/src/control_button/include/**",
+        "/home/bf1/new_ws/src/dummy_data/include/**",
+        "/home/bf1/new_ws/src/main/include/**",
+        "/home/bf1/Documents/vision/ros_x/src/semua/include/**",
+        "/home/bf1/new_ws/src/tof_pub/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

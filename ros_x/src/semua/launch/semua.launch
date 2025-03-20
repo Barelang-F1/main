@@ -1,0 +1,16 @@
+<launch>
+  
+ <node name="korban" pkg="semua" type="korban" output="screen">
+        <param name="network" value="/home/bf1/Documents/Jetson/victim/ssd-mobilenet.onnx" />
+        <param name="labels" value="/home/bf1/Documents/Jetson/victim/labels.txt" />
+        <param name="threshold" value="0.5" />
+        <remap from="detections" to="detections" />
+    </node>
+ <node name="sub" pkg="semua" type="sub" output="screen"> 
+        <param name="debounce_time" value="0.3"/> <!-- Parameter untuk debounce tombol -->
+  </node>
+  <node name="bno055_imu" pkg="semua" type="bno055_imu" output="screen"> 
+  </node>
+  <node pkg="rosbridge_server" type="rosbridge_websocket" name="rosbridge_websocket" output="screen">
+  </node>
+</launch>

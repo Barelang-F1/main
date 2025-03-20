@@ -1,0 +1,2 @@
+semua
+-DCATKIN_DEVEL_PREFIX=/home/bf1/Documents/vision/ros_x/devel -DCMAKE_INSTALL_PREFIX=/home/bf1/Documents/vision/ros_x/install -G Unix Makefiles

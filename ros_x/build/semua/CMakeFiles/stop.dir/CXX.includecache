@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bf1/Documents/vision/ros_x/src/semua/src/stop.cpp
+signal.h
+-
+chrono
+-
+iostream
+-
+thread
+-
+cstdlib
+-
+unistd.h
+-
+JetsonGPIO.h
+-
+

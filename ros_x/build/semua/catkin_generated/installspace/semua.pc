@@ -1,0 +1,8 @@
+prefix=/home/bf1/Documents/vision/ros_x/install
+
+Name: semua
+Description: Description of semua
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
